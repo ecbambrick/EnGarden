@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="11" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="sprites" tilewidth="8" tileheight="8">
+  <image source="sprites.gif" width="32" height="32"/>
+  <tile id="10">
+   <properties>
+    <property name="type" value="cloud"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="type" value="cloud"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="128" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztlskOgzAMRHOi4pDC/38tqkQka+QlAQdXrZ80B6COlzFtS0mSJInnRYT38TPJb5GePs8aXcBDeO3WCtpO4X0urqemHj+8PPucU53O+gfavKj2UxtoJrXc3wHai4b0e+yF9s58E5z3zYed0UxobgnrGe0hCqzjyg5gjPcetd3kvNd2YCZ3Zsb18g6Q9j6NnIP1e/RDv5M037UdmDk7Lrc1N60f/O8yqkWQFmPNslcVcnLxvTWNeu41R6zNupbySz4sSoyHInJK+a88jxbWZl17+38Ana4Vnw==
+  </data>
+ </layer>
+ <objectgroup name="Solid" width="128" height="11">
+  <object x="56" y="48" width="24" height="8"/>
+  <object x="0" y="72" width="128" height="16"/>
+  <object x="176" y="72" width="208" height="16"/>
+  <object x="408" y="56" width="8" height="16"/>
+  <object x="376" y="56" width="8" height="16"/>
+  <object x="352" y="16" width="16" height="8"/>
+  <object x="328" y="16" width="8" height="8"/>
+  <object x="280" y="16" width="24" height="8"/>
+  <object x="232" y="64" width="56" height="8"/>
+  <object x="240" y="56" width="40" height="8"/>
+  <object x="248" y="48" width="24" height="8"/>
+  <object x="272" y="24" width="8" height="8"/>
+  <object x="456" y="32" width="8" height="8"/>
+  <object x="472" y="72" width="296" height="16"/>
+  <object x="544" y="64" width="112" height="8"/>
+  <object x="568" y="56" width="80" height="8"/>
+  <object x="584" y="48" width="56" height="8"/>
+  <object x="592" y="40" width="40" height="8"/>
+  <object x="600" y="32" width="32" height="8"/>
+  <object type="cloud" x="752" y="32" width="8" height="8"/>
+  <object type="cloud" x="792" y="32" width="8" height="8"/>
+  <object type="cloud" x="864" y="32" width="8" height="40"/>
+  <object type="cloud" x="872" y="40" width="8" height="32"/>
+  <object type="cloud" x="880" y="48" width="8" height="24"/>
+  <object type="cloud" x="888" y="56" width="8" height="16"/>
+  <object x="648" y="32" width="32" height="8"/>
+  <object type="cloud" x="712" y="32" width="8" height="8"/>
+  <object type="cloud" x="784" y="72" width="16" height="16"/>
+  <object type="cloud" x="816" y="72" width="16" height="16"/>
+  <object type="cloud" x="848" y="72" width="64" height="16"/>
+  <object type="cloud" x="896" y="64" width="16" height="8"/>
+  <object type="cloud" x="968" y="64" width="56" height="24"/>
+  <object type="cloud" x="984" y="56" width="40" height="8"/>
+  <object type="cloud" x="1016" y="24" width="8" height="8"/>
+  <object type="cloud" x="1008" y="32" width="16" height="8"/>
+  <object type="cloud" x="1000" y="40" width="24" height="8"/>
+  <object type="cloud" x="992" y="48" width="32" height="8"/>
+  <object type="cloud" x="936" y="48" width="8" height="8"/>
+  <object x="408" y="72" width="40" height="16"/>
+  <object x="-8" y="0" width="8" height="88"/>
+ </objectgroup>
+ <objectgroup color="#ff0000" name="NPC" width="128" height="11">
+  <object type="cloud" x="32" y="48" width="16" height="8"/>
+  <object type="cloud" x="160" y="24" width="16" height="8"/>
+  <object type="cloud" x="312" y="8" width="8" height="8"/>
+  <object type="cloud" x="56" y="16" width="8" height="8"/>
+  <object type="cloud" x="120" y="40" width="8" height="8"/>
+  <object type="cloud" x="176" y="48" width="8" height="8"/>
+  <object type="player" x="8" y="56" width="8" height="8"/>
+  <object type="cloud" x="216" y="8" width="16" height="8"/>
+  <object type="cloud" x="256" y="32" width="8" height="8"/>
+  <object type="cloud" x="352" y="48" width="8" height="8"/>
+  <object type="cloud" x="320" y="40" width="16" height="8"/>
+  <object type="cloud" x="464" y="8" width="16" height="8"/>
+  <object type="cloud" x="408" y="24" width="16" height="8"/>
+  <object type="cloud" x="504" y="48" width="8" height="8"/>
+  <object type="enemy" x="88" y="64" width="8" height="8">
+   <properties>
+    <property name="type" value="tree"/>
+   </properties>
+  </object>
+  <object type="enemy" x="296" y="64" width="8" height="8">
+   <properties>
+    <property name="type" value="tree"/>
+   </properties>
+  </object>
+  <object type="enemy" x="528" y="64" width="8" height="8">
+   <properties>
+    <property name="type" value="flower"/>
+   </properties>
+  </object>
+  <object type="enemy" x="688" y="64" width="8" height="8">
+   <properties>
+    <property name="type" value="flower"/>
+   </properties>
+  </object>
+  <object type="enemy" x="743" y="64" width="8" height="8">
+   <properties>
+    <property name="type" value="tree"/>
+   </properties>
+  </object>
+  <object type="enemy" x="904" y="56" width="8" height="8">
+   <properties>
+    <property name="type" value="flower"/>
+   </properties>
+  </object>
+  <object type="enemy" x="936" y="40" width="8" height="8">
+   <properties>
+    <property name="type" value="flower"/>
+   </properties>
+  </object>
+  <object type="enemy" x="832" y="56" width="8" height="8">
+   <properties>
+    <property name="type" value="flower"/>
+   </properties>
+  </object>
+  <object type="cloud" x="768" y="8" width="8" height="8"/>
+  <object type="cloud" x="576" y="40" width="8" height="8"/>
+  <object type="cloud" x="616" y="24" width="16" height="8"/>
+  <object type="cloud" x="712" y="32" width="8" height="8"/>
+  <object type="cloud" x="672" y="8" width="16" height="8"/>
+  <object type="cloud" x="512" y="16" width="8" height="8"/>
+  <object type="cloud" x="920" y="8" width="16" height="8"/>
+  <object type="cloud" x="1000" y="16" width="8" height="8"/>
+  <object type="flying" x="968" y="24" width="8" height="8">
+   <properties>
+    <property name="type" value="tree"/>
+   </properties>
+  </object>
+  <object type="flying" x="824" y="40" width="8" height="8">
+   <properties>
+    <property name="type" value="flower"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aaff00" name="flowers" width="128" height="11">
+  <object x="184" y="64" width="8" height="8"/>
+  <object x="192" y="64" width="8" height="8"/>
+  <object x="200" y="64" width="8" height="8"/>
+  <object x="208" y="64" width="8" height="8"/>
+  <object x="216" y="64" width="8" height="8"/>
+  <object x="56" y="40" width="8" height="8"/>
+  <object x="64" y="40" width="8" height="8"/>
+  <object x="72" y="40" width="8" height="8"/>
+  <object x="72" y="64" width="8" height="8"/>
+  <object x="48" y="64" width="8" height="8"/>
+  <object x="96" y="64" width="8" height="8"/>
+  <object x="120" y="64" width="8" height="8"/>
+  <object x="256" y="40" width="8" height="8"/>
+  <object x="328" y="8" width="8" height="8"/>
+  <object x="360" y="8" width="8" height="8"/>
+  <object x="288" y="8" width="8" height="8"/>
+  <object x="440" y="64" width="8" height="8"/>
+  <object x="488" y="64" width="8" height="8"/>
+  <object x="552" y="56" width="8" height="8"/>
+  <object x="664" y="24" width="8" height="8"/>
+  <object x="792" y="24" width="8" height="8"/>
+  <object x="752" y="24" width="8" height="8"/>
+  <object x="720" y="64" width="8" height="8"/>
+  <object x="936" y="40" width="8" height="8"/>
+  <object x="968" y="56" width="8" height="8"/>
+  <object x="1000" y="32" width="8" height="8"/>
+  <object x="888" y="48" width="8" height="8"/>
+  <object x="848" y="64" width="8" height="8"/>
+  <object x="792" y="64" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="clouds" width="128" height="11"/>
+</map>
