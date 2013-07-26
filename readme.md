@@ -1,5 +1,5 @@
 ﻿# En Garden
-A simple platformer for the AGDG Spring Fling game jam
+A simple platformer for the AGDG Spring Boot Camp game jam
 
 Instructions
 ---
